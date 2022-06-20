@@ -5,7 +5,7 @@ function Register() {
     return (
       <div className="register">
         <div className="registerForm">
-          <div className="container">
+          <div className="containerRegister">
             <h1>Register</h1>
             <form>
               <label>Email</label>
@@ -40,7 +40,9 @@ function Register() {
                 required
               />
 
-              <button type="submit">Register</button>
+              <div className="buttonRegister">
+                <button type="submit">Register</button>
+              </div>
             </form>
           </div>
         </div>

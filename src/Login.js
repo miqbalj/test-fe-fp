@@ -12,12 +12,12 @@ function Login() {
           <form>
             <label>Email</label>
 
-            <input 
-              type="email" 
-              name="email" 
-              placeholder="Masukkan Email..." 
+            <input
+              type="email"
+              name="email"
+              placeholder="Masukkan Email..."
               required
-              />
+            />
             <label>Password</label>
 
             <input
@@ -26,8 +26,9 @@ function Login() {
               placeholder="Masukkan Password..."
               required
             />
-
-            <button type="submit">Login</button>
+            <div className="buttonSubmit">
+              <button type="submit">Login</button>
+            </div>
           </form>
 
           <a href="/">
