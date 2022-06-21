@@ -5,6 +5,7 @@
 .containerNavbar{
     display: flex;
     justify-content: flex-end;
+    width: auto;
 }
 
 .navbar {
