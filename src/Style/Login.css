@@ -32,7 +32,7 @@ body {
   transition: all .5s;
 }
 
-.container {
+.containerLogin {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,20 +50,20 @@ span {
   background-color: var(--form-bg);
 }
 
-.container form {
+.containerLogin form {
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.container label {
+.containerLogin label {
   margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 600;
 }
 
-.container input {
+.containerLogin input {
   padding: 8px;
   margin-bottom: 8px;
   border-radius: 30px;
@@ -72,7 +72,7 @@ span {
   color: var(--text-primary);
 }
 
-.container button {
+.containerLogin button {
   width: 125px;
   background-color: #000;
   border: 1px solid #000;
@@ -90,7 +90,7 @@ span {
   align-items: center;
 }
 
-.container a {
+.containerLogin a {
   font-size: 1rem;
   cursor: pointer;
   color: #000;

@@ -7,7 +7,7 @@ function Login() {
   return (
     <div className="login">
       <div className="loginForm">
-        <div className="container">
+        <div className="containerLogin">
           <h1>Login</h1>
           <form>
             <label>Email</label>

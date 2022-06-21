@@ -7,7 +7,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import UserDashboard from "./UserDashboard";
 import Sidebar from "./Sidebar";
-
+import ListMateriStudent from "./ListMateriStudent";
 
 function App() {
 
@@ -15,6 +15,7 @@ function App() {
     <div className="App">
       {/* <Navbar /> */}
       {/* <Footer /> */}
+      {/* <ListMateriStudent /> */}
       {/* <UserDashboard /> */}
       <Sidebar />
       {/* <Login /> */}
