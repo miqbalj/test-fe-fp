@@ -6,7 +6,6 @@
 }
 
 .footer {
-    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,4 +15,12 @@
     height: 60px;
     box-shadow: 0px 4px 4px #000;
     color: #F9B234;
+}
+
+.footerNote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
 }
