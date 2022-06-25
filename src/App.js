@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import UserDashboard from "./UserDashboard";
 import Sidebar from "./Sidebar";
 import ListMateriStudent from "./ListMateriStudent";
+import CreateMateri from "./CreateMateri";
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
       {/* <Footer /> */}
       {/* <ListMateriStudent /> */}
       {/* <UserDashboard /> */}
-      <Sidebar />
+      {/* <Sidebar /> */}
+      <CreateMateri />
       {/* <Login /> */}
       {/* <Register /> */}
     </div>
